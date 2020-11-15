@@ -144,6 +144,7 @@ LOCAL_VENDOR_MODULE             := true
 LOCAL_CFLAGS                    := $(libmm-venc-def)
 
 LOCAL_HEADER_LIBRARIES := \
+        display_headers \
         media_plugin_headers \
         libnativebase_headers \
         libcutils_headers \
@@ -186,6 +187,7 @@ LOCAL_VENDOR_MODULE             := true
 LOCAL_CFLAGS                    := $(libmm-venc-def)
 
 LOCAL_HEADER_LIBRARIES := \
+        display_headers \
         media_plugin_headers \
         libnativebase_headers \
         libutils_headers \
